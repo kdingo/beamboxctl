@@ -22,14 +22,14 @@ Requirements:
 Run in development mode:
 
 ```sh
-bun run dev
+npm run dev
 ```
 
 Build and run the CLI:
 
 ```sh
-bun run build
-bun run start
+npm run build
+npm run start
 ```
 
 ## Legal

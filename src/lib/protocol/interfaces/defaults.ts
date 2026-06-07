@@ -9,7 +9,7 @@ import { PacketType } from "../packet-types.ts";
  * TODO: Support other BeamBox models in the future.
  */
 export const DEFAULT_BLE_CONFIG: BLEConfig = {
-  deviceName: "beambox e-Badge Pulse",
+  deviceName: "E-badge",
   writeCharacteristicUUID: "000001f1-0000-1000-8000-00805f9b34fb",
   notifyCharacteristicUUID: "000001f2-0000-1000-8000-00805f9b34fb",
   scanTimeout: 10.0,
