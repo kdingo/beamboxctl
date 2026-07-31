@@ -1,13 +1,10 @@
 import React from "react";
 import { Box, Text } from "ink";
 import BigText from "ink-big-text";
-import { createRequire } from "node:module";
+import { version } from "../lib/utils/version.ts";
 
 const PASTEL_PINK = "#FFB6C1";
 const sponsorLink = "github.com/sponsors/YuzuZensai";
-
-const require = createRequire(import.meta.url);
-const { version } = require("../../package.json") as { version: string };
 
 export const Header: React.FC = () => {
   return (

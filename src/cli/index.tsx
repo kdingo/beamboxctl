@@ -1,9 +1,6 @@
 import { Command } from "commander";
-import { createRequire } from "node:module";
 import { logger, LogLevel } from "../lib/utils/logger.ts";
-
-const require = createRequire(import.meta.url);
-const { version } = require("../../package.json") as { version: string };
+import { version } from "../lib/utils/version.ts";
 import { statSync } from "node:fs";
 import { join, basename } from "node:path";
 import { scanDirectoryForImages } from "../utils/app-utils.ts";
